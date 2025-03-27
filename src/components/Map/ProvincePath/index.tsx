@@ -43,10 +43,11 @@ const ProvincePath: React.FC<ProvinceProps> = ({
         stroke="#333"
         strokeWidth="1"
         className={cn(
-          'fill-blue-600 transition-all duration-300',
-          hoveredRegion === id
-            ? 'fill-emerald-500' // Dynamically calculate fill opacity
-            : `opacity-[${Math.round(opacity * 100)}%]`, // Dynamically calculate fill opacity
+          'fill-emerald-100 transition-all duration-300',
+          { 'fill-emerald-600': hoveredRegion === id },
+          //   hoveredRegion === id
+          //     ? 'fill-emerald-500' // Dynamically calculate fill opacity
+          //     : `opacity-[${Math.round(opacity * 100)}%]`, // Dynamically calculate fill opacity
         )}
         onMouseEnter={() => setHoveredRegion(id)}
         onMouseLeave={() => setHoveredRegion(null)}
