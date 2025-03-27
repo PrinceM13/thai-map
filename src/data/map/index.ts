@@ -456,6 +456,7 @@ export const provinceMapping: ProvinceMapping = {
   'TH-74': { title: 'Samut Sakhon', population: 466281 },
   'TH-75': { title: 'Samut Songkhram', population: 466281 },
   'TH-76': { title: 'Phetchaburi', population: 961000 },
+  'TH-77': { title: 'Prachuap Khiri Khan', population: 509000 },
   'TH-80': { title: 'Nakhon Si Thammarat', population: 1750000 },
   'TH-81': { title: 'Krabi', population: 509000 },
   'TH-82': { title: 'Phangnga', population: 320000 },
