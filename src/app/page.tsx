@@ -9,7 +9,7 @@ export default function Home() {
   const [hoveredRegion, setHoveredRegion] = useState<string | null>(null)
 
   return (
-    <div className="items-top flex min-h-screen w-full flex-col items-center justify-center gap-8 overflow-scroll px-8 py-6 md:flex-row md:gap-8 md:px-10 md:py-5 lg:gap-20 lg:px-20 lg:py-10">
+    <div className="items-top flex min-h-screen w-full flex-col items-center justify-center gap-8 px-8 py-6 md:flex-row md:gap-8 md:px-10 md:py-5 lg:gap-20 lg:px-20 lg:py-10">
       <section className="flex flex-col gap-4 md:gap-8">
         <h1 className="flex flex-row justify-center gap-4 text-3xl font-bold md:flex-col md:items-start md:text-5xl lg:text-6xl">
           <span>Thailand</span>
