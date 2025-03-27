@@ -15,9 +15,12 @@ const ProvincePath: React.FC<ProvinceProps> = ({
         fill="currentColor"
         stroke="#333"
         strokeWidth="1"
-        className={cn('transition-all duration-300', {
-          'fill-emerald-600': hoveredRegion === id,
-        })}
+        className={cn(
+          'scale-50 transition-all duration-300 md:scale-[65%] lg:scale-[72%]',
+          {
+            'fill-emerald-600': hoveredRegion === id,
+          },
+        )}
         onMouseEnter={() => setHoveredRegion(id)}
         onMouseLeave={() => setHoveredRegion(null)}
       />

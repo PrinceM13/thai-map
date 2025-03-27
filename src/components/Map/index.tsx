@@ -6,10 +6,9 @@ const Map = ({ hoveredRegion, onHover: setHoveredRegion }: MapProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="559.57092"
-      height="1024.7631"
-      preserveAspectRatio="xMidYMid meet"
-      className="h-auto w-full"
+      width="1em"
+      height={`${1024.7631 / 559.57092}em`}
+      className="h-fit w-fit min-w-[300px] md:min-w-[370px] lg:min-w-[410px]"
     >
       {provinces.map((province) => (
         <ProvincePath
